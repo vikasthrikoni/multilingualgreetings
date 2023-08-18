@@ -1,8 +1,6 @@
 import './App.css'
-
 import Greetings from './Components/Greetings'
 
-// eslint-disable-next-line no-unused-vars
 const languageGreetingsList = [
   {
     id: 'bfdf40eb-eec9-4a66-a493-752fe689f0d0',
@@ -28,6 +26,6 @@ const languageGreetingsList = [
 ]
 
 // Replace your code here
-const App = () => <Greetings />
+const App = () => <Greetings languageGreetingsList={languageGreetingsList} />
 
 export default App
